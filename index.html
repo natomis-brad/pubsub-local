@@ -2,11 +2,13 @@
 <head>
     <script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="scripts/pubsub.js"></script>
+    <script type="text/javascript" src="scripts/unloader.js"></script>
     <script type="text/javascript" src="scripts/testscript.js"></script>
 </head>
 <body>
     <div>
         <button type="button" class="dialogLink">Click Me!</button>
+        <button type="button" newTarget="index.html" class="normaLink">No Click Me!</button>
     </div>
     <div>Results
         <span id="results"></span>
@@ -18,6 +20,7 @@
     <script type="text/javascript">
         $(document).ready(function () {
             TestScript.Init();
+           // Unloader.Init();
         });
     </script>
 </body>
