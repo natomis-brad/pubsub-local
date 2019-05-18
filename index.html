@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="scripts/pubsub.js"></script>
+    <script type="text/javascript" src="scripts/testscript.js"></script>
+</head>
+<body>
+    <div>
+        <button type="button" class="dialogLink">Click Me!</button>
+    </div>
+    <div>Results
+        <span id="results"></span>
+    </div>
+    <span>Using the following:</span>
+    <ul>
+        <li><a href="http://jquery.com" target="_blank">jQuery</a></li>
+    </ul>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            TestScript.Init();
+        });
+    </script>
+</body>
+</html>
